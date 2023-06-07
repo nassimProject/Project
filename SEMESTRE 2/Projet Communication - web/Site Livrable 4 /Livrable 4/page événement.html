@@ -1,0 +1,126 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musée de l'Air et de l'Espace</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <input id="invicible"   type="button" value="Commencer"/>
+        <input id="invicible"   type="button" value="Commencer"/>
+        <input id="invicible"   type="button" value="Commencer"/>
+        <input id="invicible"   type="button" value="Commencer"/>
+        <input id="invicible"   type="button" value="Commencer"/>
+        <input id="invicible"   type="button" value="Commencer"/>
+        <img src="assets/images.png" alt="Logo">
+        <input id="invicible"   type="button" value="Commencer"/>
+        <input id="invicible"   type="button" value="Commencer"/>
+        <input id="invicible"   type="button" value="Commencer"/>
+        <input id="invicible"   type="button" value="Commencer"/>
+        <input id="invicible"   type="button" value="Commencer"/>
+        
+        <h1 class="Titre">Musée de l'air et de L'Espace</h1>
+        <div class="onglets">
+            <a href="page accueil.html" id="Acc">Accueil</a>
+            <a href="page événement.html" id="Ev">Événement</a>
+            <a href="page qui sommes-nous.html" id='Qui'>Qui sommes-nous</a> 
+            <a href="#contact">Contact</a>
+            <input id="Lang1"   type="button" value="FR"/>
+            <input id="Lang2"   type="button" value="EN"/>
+            
+        </div>
+    </nav>
+
+    <header>
+        
+        <h4 id="invicible">Le musée incontournable de Paris</h4>
+        <h1 id="bv">ÉVÉNEMENT</h1>
+    
+    </header>
+
+    <section class="main" id="produits">
+
+        <div class="content">
+            <div class="card" id="card">
+                <div class="left">
+                    <h1>Planetarium</h1>
+                    <p id="text1">Le planétarium est une activité guidé par un animateur qui permet aux visiteurs de
+découvrir l’univers à travers une simulation qui nous embarque directement dans
+l’espace, elle nous permet de comprendre les constellations, les durées de voyages,
+repérer les planètes et la voie lactée ainsi que les étoiles, tout cela a pour but de
+sensibiliser le public à l'astronomie et à la découverte spatiale.
+(Horaires lors des jours d’ouvertures : 11h, 12h, 14h, 15h, 16h, 17h, achat au moins
+20 minutes avant votre séance à l’accueil du musée.)
+Prix : 5€</p>
+                </div>
+                <div class="right">
+                    <img src="assets/planetarium.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="left">
+                    <h1>Planète Pilote</h1>
+                    <p id="text2">Planète pilote est une activité dédiée aux 6-12 ans, proposant aux enfants, parents
+et accompagnateurs une expérience inédite : se glisser le temps d’une heure dans la
+peau d’un pilote, astronaute, voyageur, steward... Ils peuvent pénétrer dans le
+cockpit d’un avion de ligne ou de tourisme, observer l’activité d’un aéroport depuis
+une tour de contrôle ou découvrir le système solaire pour s’initier à l’aérospatial en
+s’amusant.(Horaires : 10h30, 12h, 13h30, 15h, 16h30)Prix : 5€</p>
+                </div>
+                <div class="right">
+                    <img src="assets/planetepilote.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <h1 id="res">Nos Réseaux</h1>
+        <div class="services">
+            
+        
+
+            <div class="service">
+                <h3><a href="https://www.instagram.com/museeairespace/"><img id="log" src="assets/Instagram_logo_2022.svg.png"> Instagram </a></h3>
+                <h3><a href="https://www.youtube.com/c/Mus%C3%A9eAirEspaceParis"><img id="log" src="assets/ytb.png"> Youtube</a></h3>
+                <h3><a href="https://fr.linkedin.com/company/mus%C3%A9e-de-l'air-et-de-l'espace---le-bourget"><img id="log" src="assets/lk.png"> Linkedin</a></h3>
+                <h3><a href="https://www.facebook.com/museedelairetdelespace/"><img id="log" src="assets/fb_icon_325x325.png"> Facebook</a></h3>
+                <h3><a href="https://twitter.com/MuseeAirEspace"><img id="log" src="assets/twitter-logo.jpg"> Twitter</a></h3>
+            
+
+        <p id="contact">Contact : 01 49 92 70 00 | &copy; 2024, Musée de l'Air et de l'Espace.</p>
+    </footer>
+    <script >
+        document.getElementById('Lang1').addEventListener('click',function(){document.querySelector('.Titre').textContent="Musée de l'air et de L'Espace";
+                document.getElementById('bv').textContent="ÉVÉNEMENT";
+                document.getElementById('Acc').textContent="Accueil";
+                document.getElementById('Ev').textContent="Événement";
+                document.getElementById('res').textContent="Nos Réseaux";
+                document.getElementById('Qui').textContent="Qui sommes-nous"
+                document.getElementById('text1').textContent="Le planétarium est une activité guidé par un animateur qui permet aux visiteurs de découvrir l’univers à travers une simulation qui nous embarque directement dans l’espace, elle nous permet de comprendre les constellations, les durées de voyages, repérer les planètes et la voie lactée ainsi que les étoiles, tout cela a pour but de sensibiliser le public à l'astronomie et à la découverte spatiale. (Horaires lors des jours d’ouvertures : 11h, 12h, 14h, 15h, 16h, 17h, achat au moins20 minutes avant votre séance à l’accueil du musée.) Prix : 5€"
+                document.getElementById('text2').textContent="Planète pilote est une activité dédiée aux 6-12 ans, proposant aux enfants, parents et accompagnateurs une expérience inédite : se glisser le temps d’une heure dans la peau d’un pilote, astronaute, voyageur, steward... Ils peuvent pénétrer dans le cockpit d’un avion de ligne ou de tourisme, observer l’activité d’un aéroport depuis une tour de contrôle ou découvrir le système solaire pour s’initier à l’aérospatial en s’amusant.(Horaires : 10h30, 12h, 13h30, 15h, 16h30) Prix : 5€"
+                document.getElementById('contact').textContent="Contact : 01 49 92 70 00 | &copy; 2024, Musée de l'Air et de l'Espace.";
+        
+            
+            });
+        document.getElementById('Lang2').addEventListener('click',function(){document.querySelector('.Titre').textContent="                Air and Space Museum         ";
+                document.getElementById('bv').textContent="EVENT";
+                document.getElementById('Acc').textContent="Home";
+                document.getElementById('Ev').textContent="Event";
+                document.getElementById('res').textContent="Networks";
+                document.getElementById('Qui').textContent="About us"
+                document.getElementById('text1').textContent="The planetarium is an activity guided by an animator that allows visitors to discover the universe through a simulation that takes us directly into space, it allows us to understand the constellations, travel times, locate the planets and the way milky way as well as the stars, all aimed at raising public awareness of astronomy and space discovery. (Hours on opening days: 11 a.m., 12 p.m., 2 p.m., 3 p.m., 4 p.m., 5 p.m., purchase at least 20 minutes before your session at the museum reception.) Price : 5€"
+                document.getElementById('text2').textContent="Planète Pilote is an activity dedicated to 6-12 year olds, offering children, parents and accompanying adults a unique experience: slipping into the shoes of a pilot, astronaut, traveler, steward... They can enter the cockpit of an airliner or passenger plane, observe the activity of an airport from a control tower or discover the solar system to learn about aerospace while having fun. (hours: 10:30 a.m., 12 p.m., 1:30 p.m., 3 p.m., 4:30 p.m.) Price: 5€"
+                document.getElementById('contact').textContent="Contact : 01 49 92 70 00 | &copy; 2024, Air and Space Museum.";
+            
+            });  
+                   
+                   
+                   </script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musée de l'Air et de l'Espace</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <input id="invicible"   type="button" value="Commencer"/>
+        <input id="invicible"   type="button" value="Commencer"/>
+        <input id="invicible"   type="button" value="Commencer"/>
+        <input id="invicible"   type="button" value="Commencer"/>
+        <input id="invicible"   type="button" value="Commencer"/>
+        <input id="invicible"   type="button" value="Commencer"/>
+        <img src="assets/images.png" alt="Logo">
+        <input id="invicible"   type="button" value="Commencer"/>
+        <input id="invicible"   type="button" value="Commencer"/>
+        <input id="invicible"   type="button" value="Commencer"/>
+        <input id="invicible"   type="button" value="Commencer"/>
+        <input id="invicible"   type="button" value="Commencer"/>
+       
+        <h1 class="Titre">Musée de l'air et de L'Espace</h1>
+        <div class="onglets">
+            <a href="page accueil.html" id="Acc">Accueil</a>
+            <a href="page événement.html" id="Ev">Événement</a>
+            <a href="page qui sommes-nous.html" id='Qui'>Qui sommes-nous</a> 
+            <a href="#contact">Contact</a>
+            <input id="Lang1"   type="button" value="FR"/>
+            <input id="Lang2" type="button" value="EN"/>
+
+        </div>
+    </nav>
+
+    <header>
+        <h1 id="bv">BIENVENUE AU MUSÉE DE L'AIR ET DE L'ESPACE 2024</h1>
+        <h4 id="soustitre">Le musée incontournable de Paris</h4>
+        <a href="#expo"><input id="button"   type="button" value="Parcourir"/></a>
+       
+    </header>
+</br> </br>
+    <p id='text1'class="text">Cet événement a pour but de mettre en avant l'aéronautique, l'aviation et l'espace,
+l'événement qui avait été organiser en 2023 a connu un très grand succès grâce aux
+visiteurs venus du monde entier pour participer à celui-ci.</p>
+    <p id='text2'class="text"> Pour ce faire, l'événement de 2024 est en cours de préparation pour répondre à une
+demande de gens passionnés et promet d'être encore plus fascinant et inoubliable avec
+plusieurs nouvelles activités proposées, de nombreuses conférences seront présentés par
+des experts dans le domaine ainsi que de nouvelles expositions et des ateliers
+éducatifs pour les plus jeunes d'entre vous. </p>
+    <p id='text3'class="text"> Que vous soyez un(e) étudiant(e) curieux(se), un(e) amateur(ice) d'aviation, ou un(e)
+aventurier(ère) cet événement est fait pour vous ! Nous sommes impatients à l'idée de
+vous accueillir et vous rencontrer au musée de l'air et de l'espace au Bourget prévue pour
+2024 !</p>
+    <p id="expo" class="expo">NOS EXPOSITIONS</p> 
+    
+    <div class="img">  
+        <img id="img11" src="assets/planetarium.jpg" alt="planetarium">
+        <img id="img2" src="assets/planetepilote.jpg" alt="planete pilote">
+    </div>
+
+    <p id="affiche" class="expo">NOTRE AFFICHE</p>
+    <div class="img">  <img id='affiche1' src="assets/affiche.png" alt="affiche">
+    </div>
+    <footer>
+
+        <h1 id="res">Nos Réseaux</h1>
+        <div class="services">
+            
+        
+
+            <div class="service">
+                 <h3><a href="https://www.instagram.com/museeairespace/"><img id="log" src="assets/Instagram_logo_2022.svg.png"> Instagram </a></h3>
+                <h3><a href="https://www.youtube.com/c/Mus%C3%A9eAirEspaceParis"><img id="log" src="assets/ytb.png"> Youtube</a></h3>
+                <h3><a href="https://fr.linkedin.com/company/mus%C3%A9e-de-l'air-et-de-l'espace---le-bourget"><img id="log" src="assets/lk.png"> Linkedin</a></h3>
+                <h3><a href="https://www.facebook.com/museedelairetdelespace/"><img id="log" src="assets/fb_icon_325x325.png"> Facebook</a></h3>
+                <h3><a href="https://twitter.com/MuseeAirEspace"><img id="log" src="assets/twitter-logo.jpg"> Twitter</a></h3>
+                 
+            
+
+        <p id="contact">Contact : 01 49 92 70 00 | &copy; 2024, Musée de l'Air et de l'Espace.</p>
+    </footer>
+    <script>
+        document.querySelector('#img11').addEventListener('click',function(){
+            document.location.href='Page événement.html#card'});
+
+        document.querySelector('#img2').addEventListener('click',function(){
+            document.location.href='Page événement.html#card'});
+
+        document.getElementById('Lang1').addEventListener('click',function(){
+            document.querySelector('.Titre').textContent="Musée de l'air et de L'Espace";
+                document.getElementById('bv').textContent="BIENVENUE AU MUSÉE DE L'AIR ET DE L'ESPACE 2024";
+                document.getElementById('soustitre').textContent="Le musée incontournable de Paris";
+                document.getElementById('Acc').textContent="Accueil";
+                document.getElementById('Ev').textContent="Événement";
+                document.getElementById('button').value="Parcourir";
+                document.getElementById('expo').textContent="NOS EXPOSITIONS";
+                document.getElementById('affiche').textContent="NOTRE AFFICHE";
+                document.getElementById('res').textContent="Nos Réseaux";
+                document.getElementById('Qui').textContent="Qui sommes-nous"
+                document.getElementById('text1').textContent="Cet événement a pour but de mettre en avant l'aéronautique, l'aviation et l'espace, l'événement qui avait été organiser en 2023 a connu un très grand succès grâce aux visiteurs venus du monde entier pour participer à celui-ci."
+                document.getElementById('text2').textContent="Pour ce faire, l'événement de 2024 est en cours de préparation pour répondre à une demande de gens passionnés et promet d'être encore plus fascinant et inoubliable avec plusieurs nouvelles activités proposées, de nombreuses conférences seront présentés par des experts dans le domaine ainsi que de nouvelles expositions et des ateliers éducatifs pour les plus jeunes d'entre vous."
+                document.getElementById('text3').textContent="Que vous soyez un(e) étudiant(e) curieux(se), un(e) amateur(ice) d'aviation, ou un(e) aventurier(ère) cet événement est fait pour vous ! Nous sommes impatients à l'idée de vous accueillir et vous rencontrer au musée de l'air et de l'espace au Bourget prévue pour 2024 !"
+                document.getElementById('contact').textContent="Contact : 01 49 92 70 00 | &copy; 2024, Musée de l'Air et de l'Espace.";
+        
+            
+            });
+        document.getElementById('Lang2').addEventListener('click',function(){document.querySelector('.Titre').textContent="                Air and Space Museum         ";
+                document.getElementById('bv').textContent="WELCOME TO THE 2024 AIR AND SPACE MUSEUM";
+                document.getElementById('soustitre').textContent="The museum not to be missed";
+                document.getElementById('Acc').textContent="Home";
+                document.getElementById('Ev').textContent="Event";
+                document.getElementById('button').value="Explored";
+                document.getElementById('expo').textContent="EXHIBITS";
+                document.getElementById('affiche').textContent="OUR POSTER";
+                document.getElementById('res').textContent="Networks";
+                document.getElementById('Qui').textContent="About us"
+                document.getElementById('text1').textContent="The goal of this event is to spotlight aeronautics, aviation and space. This event was organized in 2023 and was a big success to the visitors from worldwide."
+                document.getElementById('text2').textContent="To do this, the 2024 event is being prepared to answer the demand of passionate people and promised to be more fascinating and memorable with many new activities, some conferences will be presented by experts in the field as well as new exhibitions and educational workshops for the younger ones."
+                document.getElementById('text3').textContent="As you are curious students, aviation amateur or an adventurer, this event is made for you ! We are excited to welcome you and to meet you at the Air and Space Museum at Le Bourget due by 2024 ! The staff of a cultural event organization."
+                document.getElementById('contact').textContent="Contact : 01 49 92 70 00 | &copy; 2024, Air and Space Museum.";
+            });  
+                   
+                   
+            </script>
+
+</body>
+</html>
